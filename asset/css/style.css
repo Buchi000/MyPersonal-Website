@@ -9,7 +9,16 @@ h2{
     text-align: center;
     margin-top: 200px; 
 }
-
+a:hover{
+    color:black !important;
+}
+.nn a:hover{
+    color:black !important; 
+}
+.nav-item1{
+    padding: 0, 20px;
+    margin-left: 5px;
+}
 
 .about{
     text-align: none;
@@ -27,6 +36,17 @@ h2{
 .container{
 position: relative;
 } 
+.brand:hover{
+    transform: scale(1.1,1.1); 
+}
+.page-footer{
+    background-color: pink;
+    margin-bottom: 0;
+}
+.footer-copyright{
+    background-color: palevioletred;
+    margin-bottom: 0;
+}
 
 .blog{
     margin-top: 10px;
@@ -67,4 +87,46 @@ img{
     width: 600px;
     height: 500px;
     padding: 100px 100px;
+}
+.nav-item{
+    padding: 0, 20px;
+    
+}
+
+.nav-item:hover{
+    transform: scale(1.1,1.1);
+    
+}
+.nav-item1:hover{
+    transform: scale(1.7,1.7);
+   
+}
+.list{
+    margin-right: 130px;
+    padding: 20px;
+}
+.nav-item1{
+    padding: 20px;
+}
+.Slist{
+    margin-right: 30px;
+}
+@media(min-width:600px){
+    .nn a{
+        color: olive !important;
+    }
+    
+    .nav-item1{
+        padding: 10px;
+        margin-left: 90px;
+    }
+    
+
+    ul.nav-item1 li {
+        margin-right: 300px;
+    }
+
+    ul.nav-item1 {
+        padding-bottom: 500px;
+    }
 }
