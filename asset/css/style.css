@@ -47,7 +47,6 @@ position: relative;
     background-color: palevioletred;
     margin-bottom: 0;
 }
-
 .blog{
     margin-top: 10px;
     margin-left: 35px;
@@ -77,16 +76,25 @@ article {
     font-size: 15px;
     text-transform: uppercase;
 }
-
-form{
-    padding: 18px;
-    margin-left: 60px;
-    margin-right: 60px;
+@font-face {
+    font-family: 'bebas-neue';
+    src: url("../css/BebasNeue-Regular.ttf");
+    font-style: bebas-neue;
+    font-weight: 100;
 }
-img{
-    width: 600px;
-    height: 500px;
-    padding: 100px 100px;
+h1{
+    font-family: 'bebas-neue';  
+}
+h5{
+    font-family: 'bebas-neue';  
+}
+h2{
+    font-family: 'bebas-neue';
+}
+a{
+    font-family: 'bebas-neue';
+    font-size: 22px;
+  
 }
 .nav-item{
     padding: 0, 20px;
@@ -111,6 +119,16 @@ img{
 .Slist{
     margin-right: 30px;
 }
+form{
+    padding: 18px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+img{
+    width: 600px;
+    height: 500px;
+    padding: 100px 100px;
+}
 @media(min-width:600px){
     .nn a{
         color: olive !important;
@@ -129,4 +147,11 @@ img{
     ul.nav-item1 {
         padding-bottom: 500px;
     }
+}
+.women{
+    margin-top: 150px;
+}
+.ff{
+   
+    width: 100%;
 }
