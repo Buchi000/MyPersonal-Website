@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    
 }
 a:hover{
     color:black !important;
@@ -8,10 +8,8 @@ a:hover{
 .nn a:hover{
     color:black !important; 
 }
-img{
-    width: 458px;
-    height: 300px;
-    margin-left: 20px;
+#new{
+    padding: 5px;
 }
 .new{
     border-style: solid pink 2px;
@@ -92,3 +90,6 @@ form{
     }
 }
 
+.navbar{
+    background-color: white;
+}
