@@ -104,6 +104,18 @@ a{
 #newid{
     color: black;
 }
+#www{
+    margin-left: 5px;
+    border-bottom: 0;
+    font-size: 40px;
+    color:red;
+}
+#wwwa{
+    margin-right: 5px;
+    border-bottom: 0;
+    font-size: 40px;
+    color:red;
+}
 
 .list{
     margin-right: 20px;
