@@ -131,7 +131,18 @@ a{
     font-size: 40px;
     color:red;
 }
-
+#old{
+    font-family: ltc-bodoni-175;
+    font-weight: 400;
+    font-style: italic;
+    
+    letter-spacing: .03em;
+    line-height: 1em;
+    text-transform: none;
+    color: #222222;
+    font-size: 30px;
+    
+}
 .list{
     margin-right: 20px;
     padding: 2px;
@@ -182,4 +193,9 @@ img{
 }
 #aa{
     margin-right: 0px;
+    text-decoration: none;
+    color: gray;
+}
+.mmm{
+    display: inline;
 }
