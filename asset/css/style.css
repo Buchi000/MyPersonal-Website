@@ -2,6 +2,10 @@
 body{
 
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .navbar-brand{
     width: 100%;
 }
@@ -209,6 +213,7 @@ img{
 #nnnn:hover{
     color: gray;
 }
-#priv{
+#prive{
     text-decoration: none;
+    font-family: url(//db.onlinewebfonts.com/c/02c5086e8616653dade6e7cb3a1f0498?family=LTCBodoni175W01-Regular);
 }
