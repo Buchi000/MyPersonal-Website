@@ -1,3 +1,4 @@
+@import url(//db.onlinewebfonts.com/c/02c5086e8616653dade6e7cb3a1f0498?family=LTCBodoni175W01-Regular);
 body{
 
 }
@@ -201,4 +202,13 @@ img{
 }
 .row{
     margin-top: 20px;
+}
+#next{
+    text-decoration: none;
+}
+#nnnn:hover{
+    color: gray;
+}
+#priv{
+    text-decoration: none;
 }

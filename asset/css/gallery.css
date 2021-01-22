@@ -24,6 +24,8 @@
 .page-footer{
     background-color: pink;
     margin-bottom: 0;
+    width: 100%;
+    max-width: relative;
 }
 .footer-copyright{
     background-color: palevioletred;
